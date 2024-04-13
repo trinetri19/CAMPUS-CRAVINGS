@@ -1,0 +1,10 @@
+.cart-content{
+    height:60vh;
+    width:60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:; */
+    gap:20vh;
+    background-color: aqua;
+  }

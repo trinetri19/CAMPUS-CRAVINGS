@@ -1,0 +1,80 @@
+main{
+    width:98.5vw;
+    /* background-color: violet; */
+  }
+  .content1{
+    min-height:100vh;
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+  }
+  .icontent{
+    min-height:35rem;
+    width:90%;
+    background-color: #98c878;
+    padding: 2%;
+    border-radius: 15px;
+    margin:1%;
+  }
+  .orderIdiv1{
+    margin-top: 0.5rem;
+  }
+  .Orderitems{
+    min-height:20rem ;
+    width:100%;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: beige;
+    border-radius: 15px;
+  }
+  .OrderRow{
+    height:8rem;
+    width:90%;
+    background-color: white;
+    /* background-color: blue; */
+    display: flex;
+    gap:1%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+  }
+  .order-img{
+    height: 6rem;
+    width:10%;
+    
+    /* border:1px solid black; */
+  }
+  img{
+    height:100%;
+    width:100%;
+    border-radius: 15px;
+  }
+  .foodDetails{
+    height: 6rem;
+    width:70%;
+    padding: 1%;
+  }
+  .foodPrice{
+    height: 6rem;
+    width:20%;
+    padding: 1%;
+  }
+.oi2{
+    display: flex;
+}
+.payment{
+    height:100%;
+    width:50%;
+    padding: 1%;
+    /* background-color: whitesmoke; */
+}
+.delivery{
+    height:100%;
+    width:50%;
+    padding: 1%;
+    /* background-color: violet; */
+}

@@ -1,0 +1,236 @@
+main {
+  width: 99vw;
+  /* background-color: violet; */
+}
+
+.content1 {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  background-color: #486236;
+  background-image: url("images/timage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20vh;
+  /* filter: blur(5px); */
+}
+
+.search-input {
+  height: 8vh;
+  width: 60vw;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.btn-sear {
+  height: 7vh;
+  width: 5vw;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 1.6rem;
+  background-color: rgb(64, 143, 38);
+  color: white;
+}
+
+input {
+  height: 7vh;
+  width: 55vw;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 0px 10px;
+  font-size: 1.2rem;
+}
+
+span {
+  color: rgb(20, 66, 5);
+}
+
+.content2 {
+  min-height: 100vh;
+  width: 75%;
+  background-color: #98c878;
+  margin: 2% auto;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.content2 h2 {
+  color: white;
+}
+
+.row {
+  height: 25vh;
+  width: 100%;
+  background-color: white;
+  margin: 10px 0px;
+  padding: 10px;
+  display: flex;
+}
+
+.card {
+  height: 98%;
+  width: 25%;
+  background-color: beige;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-card {
+  height: 70%;
+  width: 55%;
+  /* background-color: violet;   */
+  border-radius: 25px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-about {
+  height: 70%;
+  width: 35%;
+  /* background-color: tomato; */
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+
+.card-button {
+  padding: 4%;
+  width: 90%;
+  border-radius: 25px;
+  background-color: rgb(64, 143, 38);
+  color: white;
+}
+
+.banner-offer {
+  height: 30vh;
+  width: 90%;
+  background: linear-gradient(45deg, #6fa14e, #486236);
+  margin: 1% auto;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  padding: 5%;
+  display: flex;
+}
+
+
+footer {
+  width:100%;
+  background-color: #6fa14e;
+  color: white;
+  height: 5vh;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width:768px) {
+  .items {
+    height: 5vh;
+    font-size: 1.3rem;
+    margin-right: 15px;
+  }
+
+  .inner-item {
+    width: 12vw;
+  }
+
+  .content1 {
+    height: 40vh;
+    gap: 5vh;
+  }
+
+  .search-input {
+    height: 5vh;
+    width: 75vw;
+  }
+
+  .btn-sear {
+    height: 5vh;
+    width: 10vw;
+  }
+
+  input {
+    height: 5vh;
+    width: 65vw;
+    font-size: 1.4rem;
+  }
+
+  .banner-offer {
+    height: 10vh;
+    width: 90%;
+    margin: 1% auto;
+    font-size: 1.2rem;
+  }
+
+
+  .content2 {
+    width: 90%;
+    margin: 4% auto;
+    padding: 3%;
+  }
+
+  .row {
+    height: 15vh;
+    margin: 15px 0px;
+    padding: 5px;
+    background-color: yellow;
+  }
+
+  .card {
+    height: 98%;
+    width: 25%;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-card {
+    height: 70%;
+    width: 55%;
+    /* background-color: violet;   */
+    border-radius: 25px;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .card-about {
+    height: 70%;
+    width: 35%;
+    /* background-color: tomato; */
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+  }
+
+  .card-button {
+    padding: 4%;
+    width: 90%;
+    border-radius: 25px;
+    background-color: rgb(64, 143, 38);
+    color: white;
+  }
+}
